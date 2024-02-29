@@ -8,6 +8,7 @@ export const addTodo = async (req, res) => {
     creator: req.userId,
     createdAt: new Date().toISOString(),
   });
+  console.log(newTodo);
   try {
     await newTodo.save();
     res.status(201).json({
