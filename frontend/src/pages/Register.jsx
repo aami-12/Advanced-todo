@@ -10,8 +10,8 @@ import {
   MDBIcon,
   MDBSpinner,
 } from "mdb-react-ui-kit";
-import { Link, Navigate, useNavigate } from "react-router-dom";
-import { ToastContainer, toast } from "react-toastify";
+import { Link, useNavigate } from "react-router-dom";
+import { toast } from "react-toastify";
 import { useDispatch, useSelector } from "react-redux";
 import { signup } from "../redux/feature/authSlice";
 

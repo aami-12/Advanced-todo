@@ -22,7 +22,7 @@ function App() {
 
   useEffect(() => {
     dispatch(setUser(user));
-  }, []);
+  }, [user,dispatch]);
   return (
     <div className="App">
       <Header />

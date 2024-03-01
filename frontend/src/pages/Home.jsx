@@ -20,7 +20,7 @@ const Home = () => {
 
   useEffect(() => {
     dispatch(getTodos(currentPage));
-  }, [currentPage]);
+  }, [currentPage,dispatch]);
 
   if(loading) {
     return <Spinner />

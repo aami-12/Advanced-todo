@@ -43,7 +43,7 @@ const AddEditTodo = () => {
       const singleTodo = userTodos.todo.find((todo) => todo._id === id); 
       setTodoData({ ...singleTodo });
     }
-  }, [id]);
+  }, [id,dispatch]);
 
   const handleSubmit = (e) => {
     e.preventDefault();
