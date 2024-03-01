@@ -28,10 +28,10 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Home />}></Route>
+        <Route path="/login" element={<Login />}></Route>
+        <Route path="/register" element={<Register />}></Route>
         <Route path="/todo/search" element={<Home />}></Route>
         <Route path="/todo/tags/:tag" element={<TagTodos />}></Route>
-        <Route path="/register" element={<Register />}></Route>
-        <Route path="/login" element={<Login />}></Route>
         <Route
           path="/add-todo"
           element={
